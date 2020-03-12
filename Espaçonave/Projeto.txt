@@ -1,0 +1,4 @@
+Programa para calcular quantos estágios, quantidade de combustível e tempo para uma espaçonave sair de um planeta/lua e chegar a outro planeta/lua.
+	-Para criar o programa será necessário criar um formulário para que o usuário preencha aonde ele deve inserir a quantidade de passageiros, o peso de cada passageiro, peso das comidas, peso da água, peso da cabine, informar se irá levar maquinário e qual o seu peso, local de origem e local de chegada;
+	-O programa terá que considerar o peso total de tudo que a espaçonave terá que levar e sempre que adicionar um outro estágio ou um novo tanque de gasolina considera-los no cálculo;
+	-Será necessário criar um banco de dados contendo os dados de planetas e luas conhecidos, dados como gravidade, trajetória, velocidade de translação e tipo de superfície;

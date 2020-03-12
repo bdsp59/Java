@@ -1,0 +1,4 @@
+O programa deve ser capaz de calcular a distância, consumo médio da gasolina/GNV para realizar o trajeto, tempo da viagem ao se viajar de carro, ônibus, avião e helicóptero. E informar qual a opção mais rápida e a mais econômica. Para criar esse programa será necessário criar um banco de dados integrado para que ele possa armazenar os transportes já cadastrados e assim usar eles como base;
+	-Antes de calcular a viagem o programa deve perguntar se o usuário deseja usar algum veículo já cadastrado ou se deseja cadastrar um novo;
+	-Caso decida usar um já cadastrado o usuário somente terá que informar a hora de saída, quantas pessoas vão viajar, quantas malas são e a cidade de origem e de destino;
+	-Caso precise cadastrar um novo veículo o usuário terá que preencher um formulário informando Modelo, Marca, Ano, quantos Km/L faz, tipo de combustível;

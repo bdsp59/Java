@@ -1,0 +1,6 @@
+Criar um programa que seja um despertador, sendo assim ele deve ser capaz de:
+	-Acessar a hora e dia atual;
+	-Permitir ao usuário que insira a hora e o dia que deseja que o alarme toque;
+	-Permitir ao usuário informar depois de quantas horas ou minutos o alarme toque, sendo assim o programa deve ser capaz de dizer a hora e o dia que o alarme irá tocar;
+	-Permitir que o usuário escolha os dias em que o alarme vai tocar, então o programa deve ter a noção de dia e sempre manter atualizado;
+	-Permitir que o usuário adie o alarme por 5, 10 ou 15 min, a escolha do usuário;

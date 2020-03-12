@@ -1,0 +1,33 @@
+Projeto para Geometria analitica:
+
+Criar um programa capaz de:
+	-Calcular Área, perímetro e volume das figuras mais conhecidas;
+	-Calcular distância entre pontos na reta, no plano ou no espaço;
+	-Calcular o valor do raio e o centro do círculo;
+	-Trabalhar com vetores no plano e no espaço - Soma entre vetores, multiplicação de um vetor por um escalar, achar as coordenadas dos vetores, achar o ângulo entre vetores;
+	-Produto interno de vetores;
+	-Achar a equação paramétrica da reta no plano e no espaço;
+	-Calcular áreas notáveis;
+	-Verificar se os vetores são Linearmente Dependentes ou Linearmente Independentes;
+	-Calcular o produto vetorial;
+	-Reta no espaço;
+	-Plano no espaço;
+	-Equações cartesianos de um plano;
+	-Identificar posições relativas de planos no espaço;
+	-Calcular distância entre ponto e reta, entre retas no plano;
+	-Calcular distância entre ponto e plano, entre dois planos, entre ponto e reta, entre reta e plano, entre retas no espaço 3D;
+	-Identificar figura geométrica que é formada a partir de equação de 2º grau em duas variáveis;
+	-Saber trabalhar com Elipse;
+	-Saber trabalhar com Parábola;
+	-Saber trabalhar com Hipérbole;
+	-Identificar quádricas a partir das equações;
+	-Saber trabalhar com Elipsóide;
+	-Saber trabalhar com Hiperbolóide de 1 folha;
+	-Saber trabalhar com Hiperbolóide de 2 folhas;
+	-Saber trabalhar com Parabolóide Elíptico;
+	-Saber trabalhar com Parabolóide Hiperbólico(Sela);
+	-Saber trabalhar com Cone Elíptico;
+	-Saber trabalhar com Cilíndro Elíptico;
+	-Saber trabalhar com Cilíndro Hiperbólico;
+	-Saber trabalhar com Cilíndro Parabólico;
+	-Classificar quádricas dada uma equação em função de um parâmetro indefinido;
