@@ -2,15 +2,16 @@ package cadastro;
 
 import java.util.Scanner;
 
-public class teste {
+public class teste{
 
 	public static void main(String[] args) {
-		Cadastro_banco banco = new Cadastro_banco();
-		String nome, cpf;
+		//Cadastro_banco banco = new Cadastro_banco();
+		new Cadastro_interface();
+		/*String nome, cpf;
 		boolean cliente=false, funcionario=false, fornecedor=false;
 		Scanner sc = new Scanner(System.in);
 		banco.connect();
-		/*System.out.println("Entre com o email: ");
+		System.out.println("Entre com o email: ");
 		email = sc.next();
 		System.out.println("Esse usuário é um cliente, um fornecedor ou um funcionário?");
 		tipoCliente = sc.next();
@@ -34,8 +35,11 @@ public class teste {
 		System.out.println("Entre com o CPF: ");
 		cpf = sc.next();
 		banco.cadastroFisica(nome, cpf);
-		*/
-		banco.listAllEmployees();
+		
+		banco.userPersonal();
+		banco.userNamePhone();
+		banco.userNameAdress();
 		banco.disconnect();
+		*/
 	}
 }
