@@ -1,0 +1,47 @@
+CREATE DATABASE CARRO;
+
+USE CARRO;
+
+CREATE TABLE COMBUSTIVEL(
+	idCombustivel INT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(30) NOT NULL UNIQUE
+);
+
+CREATE TABLE MARCA(
+	idMarca INT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(30) NOT NULL UNIQUE
+);
+
+CREATE TABLE CARRO(
+	idCarro INT PRIMARY KEY AUTO_INCREMENT,
+	modelo VARCHAR(40) NOT NULL,
+	anoFabricacao CHAR(4) NOT NULL,
+	kmPorLitro NUMERIC(10,2) NOT NULL,
+	id_combustivel INT,
+	id_marca INT,
+	FOREIGN KEY(id_combustivel) REFERENCES COMBUSTIVEL(idCombustivel),
+	FOREIGN KEY(id_marca) REFERENCES MARCA(idmarca)
+);
+
+INSERT INTO COMBUSTIVEL VALUES(NULL, 'Gasolina');
+INSERT INTO COMBUSTIVEL VALUES(NULL, 'Alcool');
+INSERT INTO COMBUSTIVEL VALUES(NULL, 'Diesel');
+INSERT INTO COMBUSTIVEL VALUES(NULL, 'Flex');
+INSERT INTO COMBUSTIVEL VALUES(NULL, 'Eletrico');
+
+/*Os carros e as marcas serão adicionadas a medida que os carros forem adicionados no programa.*/
+
+INSERT INTO CARRO VALUES (NULL, 'modelo', 'anoFabricacao', kmPorLitro, id_combustivel, id_marca);
+
+SELECT	MARCA.nome,
+		CARRO.modelo,
+		CARRO.anoFabricacao,
+		CARRO.kmPorLitro,
+		COMBUSTIVEL.nome
+FROM CARRO
+INNER JOIN MARCA ON CARRO.id_marca = MARCA.idMarca
+INNER JOIN COMBUSTIVEL ON CARRO.id_combustivel = COMBUSTIVEL.idCombustivel;
+
+INSERT INTO MARCA VALUES(NULL, 'Chevrolet');
+
+INSERT INTO CARRO VALUES(NULL, 'Vectra GT', '2010', 9.8, 1, 1);
